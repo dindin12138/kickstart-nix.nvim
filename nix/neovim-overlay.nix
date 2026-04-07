@@ -43,6 +43,7 @@ in
   # This is the neovim derivation
   # returned by the overlay
   nvim-pkg = mkNeovim {
+    appName = "kickvim";
     plugins = all-plugins;
     inherit extraPackages;
   };
